@@ -1,0 +1,150 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+
+}
+/* common shared style */
+.btn{
+    background-color: #f15B22;
+    color: white;
+    padding: 15px 20px;
+    border: 0;
+    border-radius: 5px;
+    float: right;
+    margin-right: 15px;
+    
+}
+/* nav style */
+nav{
+   height: 100vh;
+   
+    background-image: url("images/banner/banner1.png");
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 50px;
+    
+   
+   
+}
+.title-mid{
+    margin-left: 170px;
+    
+}
+
+.nav-content{
+    width: 30%;
+    padding: 30px;
+    text-align: right;
+    
+   
+}
+.title{
+    font-size: 45px;
+   margin-bottom: 30px;
+
+}
+.desc{
+    margin-bottom: 10px;
+    color: #474747;
+    margin-bottom: 20px;
+}
+/* section style */
+.section-one{
+  display: flex;
+  padding: 130px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px; 
+  
+}
+
+.img {
+    width: 450px;
+    height: 500px;
+    margin: 0px 150px 250px 0px;
+}
+.list li{
+    list-style: none;
+}
+#icon{
+    padding: 5px;
+    color: green;
+}
+.content-section{
+    margin: 50px 0px 50px 100px;
+ width: 70%;
+    /* margin-left: 20px;
+    padding: 50px;
+    */
+   
+   
+}
+.sec-title{
+    text-align: center;
+    
+}
+/* section two */
+.plan{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+   
+   
+}
+.card{
+    border: 1px solid white;
+    text-align: center;
+    margin: 30px;
+ 
+  
+}
+.card img{
+   text-align: center;
+}
+.card-title{
+    text-align: center;
+}
+.card-desc{
+    text-align: center;
+}
+/* section three */
+.section-three{
+    height: 500px;
+    width: 100%;
+    background-image: url("images/watch.png"),url("images/gradient3.png");
+    background-size: 1140px 300px,1140px 300px;
+    background-repeat: no-repeat;
+   background-blend-mode: overlay;
+
+   
+   border-radius: 5px;
+   margin: 50px 0px 50px 70px;
+   padding: 30px;
+  
+}
+
+.call-btn{
+    border: 0;
+    padding: 18px 30px 18px 30px;
+    border-radius: 5px;
+    margin: -10px 0px 0px 30px;
+}
+.section-three-title{
+margin: 30px;
+color: white;
+font-size: 25px;
+}
+
+
+/* footer section */
+footer{
+    background-color: black;
+}
